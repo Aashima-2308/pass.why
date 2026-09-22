@@ -1,5 +1,5 @@
 body {
-    background-color: #080c15;
+    background-color:#080c15;
     font-family: Arial;
     color: white;
 }
@@ -128,4 +128,132 @@ hr {
     color: #718096;
     font-size: 12px;
 }
+.box {
+    width: 85%;
+    max-width: 440px;
+    margin: 20px auto;
+    padding: 25px;
+    border-left: 1px solid #542070;
+    border-right: 1px solid #542070;
+}
+
+.challenge {
+    color: #ff4cac;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #8f9bb3;
+    margin-top: 0;
+}
+
+.status {
+    background: #1a0b31;
+    border: 1px solid #572080;
+    padding: 12px;
+    border-radius: 12px;
+    color: #d79cff;
+    margin: 20px 0;
+}
+
+.label {
+    color: #91a0b8;
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+
+.progress {
+    display: flex;
+    gap: 6px;
+}
+
+.progress div {
+    height: 28px;
+    flex: 1;
+    border: 1px solid #26334a;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.progress .active {
+    background: #39105e;
+    border-color: #ff28a8;
+}
+
+.password {
+    margin-top: 16px;
+    padding: 25px;
+    text-align: center;
+    background: #070c15;
+    border: 1px solid #26334a;
+    border-radius: 12px;
+}
+
+.character {
+    font-size: 25px;
+    font-weight: bold;
+    background: #40105c;
+    border: 2px solid #9d29d6;
+    padding: 10px 18px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.clicks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: #a9c5e8;
+}
+
+.clicks span:last-child {
+    color: #ff45ae;
+    font-weight: bold;
+}
+
+.bar {
+    height: 7px;
+    background: #263247;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.sensor {
+    margin-top: 16px;
+    padding: 30px;
+    text-align: center;
+    border: 1px dashed #26334a;
+    border-radius: 12px;
+}
+
+button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(
+        90deg,
+        #f00088,
+        #8535ff,
+        #00a8d9
+    );
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.warning {
+    color: #69758b;
+    font-size: 9px;
+    margin-top: 25px;
+}
+
 
