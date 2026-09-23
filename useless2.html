@@ -3,10 +3,10 @@
 <head>
     <title>Verification Challenge</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleu.css">
 </head>
 
-<body>
+<body style="overflow-y: hidden;">
 
     <div class="box">
 
@@ -18,14 +18,15 @@
             Complete the challenge below to prove you are definitely human.
         </p>
 
-        <div class="status">
-            ⚙ Calculating kinetic calorie burn...
-        </div>
+       
+<div class="status-box">
+    <span id="funnyStatus">Let's start 🤭</span>
+</div>
 
         <p class="label">PASSWORD VERIFICATION PIPELINE</p>
 
-        <div class="progress">
-            <div class="active">•</div>
+        <div class="progress" id="pipelineContainer">
+            <div class="active" id="currentChar">•</div>
             <div>•</div>
             <div>•</div>
             <div>•</div>
@@ -36,11 +37,11 @@
 
             <p class="label">CURRENT PASSWORD CHARACTER</p>
 
-            <div class="character">H</div>
+            <div id="currentChar" class="character">-</div>
 
             <div class="clicks">
                 <span>Required clicks:</span>
-                <span>0 / 8</span>
+                <span id="clickCount">0 / 8</span>
             </div>
 
             <div class="bar"></div>
@@ -49,17 +50,19 @@
 
         <div class="sensor">
 
-            <p class="label">[HUMAN_SENSOR_ZONE]</p>
+            <!-- <p class="label">[HUMAN_SENSOR_ZONE]</p> -->
 
-            <button>CLICK ME 0</button>
+            <button id="clickBtn">CLICK ME 0</button>
 
-            <p class="warning">
+            <!-- <p class="warning">
                 WARNING: MISS-CLICKS RESET ALL
-            </p>
+            </p> -->
 
         </div>
 
     </div>
 
+    <audio id="missSoundAudio" src="fahhh_CtX2n0FP.mp3" preload="auto"></audio>
+<script src="script2.js"></script>
 </body>
 </html>
