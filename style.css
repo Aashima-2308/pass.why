@@ -1,7 +1,7 @@
 body {
-    background-color:#080c15;
+    background-color:#141401;
     font-family: Arial;
-    color: white;
+    color: #DBD7CC;
 }
 
 
@@ -12,7 +12,7 @@ body {
     margin: 70px auto;
     padding: 30px;
 
-    background-color: #101625;
+    background-color: #131B14;
 
     border: 1px solid #333b4d;
     border-radius: 15px;
@@ -24,8 +24,8 @@ body {
 .badge {
     display: inline-block;
 
-    background-color: #281044;
-    color: #c36cff;
+    background-color: #3B593F;
+    color: #DBD7CC;
 
     padding: 8px 12px;
     border-radius: 20px;
@@ -40,7 +40,7 @@ h1 {
 
 
 .subtitle {
-    color: #788399;
+    color: black;
     margin-bottom: 30px;
 }
 
@@ -50,6 +50,7 @@ h1 {
 h5 {
     margin-top: 20px;
     margin-bottom: 8px;
+    font-family: Space Grotesk;
 
     color: #aeb6c5;
 }
@@ -92,7 +93,7 @@ button {
     width: 100%;
     padding: 14px;
 
-    background-color: #a900ff;
+    background-color: #F59E03;
     color: white;
 
     border: none;
@@ -248,12 +249,7 @@ button {
     padding: 15px 35px;
     border: none;
     border-radius: 12px;
-    background: linear-gradient(
-        90deg,
-        #f00088,
-        #8535ff,
-        #00a8d9
-    );
+    background-color: #F59E03;
     color: white;
     font-size: 16px;
     font-weight: bold;
