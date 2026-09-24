@@ -174,12 +174,13 @@ h1 {
     border-radius: 12px;
     color: #DBD7CC;
     margin: 20px 0;
-    font-size: 20px
+    font-size: 25px
+    align: center;
 }
 
 .label {
     color: #91a0b8;
-    font-size: 15px;
+    font-size: 11px;
     margin-bottom: 7px;
 }
 
