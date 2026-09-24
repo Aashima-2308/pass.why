@@ -18,5 +18,5 @@ continueBtn.addEventListener('click', function () {
 
     // Step 4: Next page par navigate karna
     // (Aapke Page 2 ke HTML file ka jo bhi naam ho, yahan woh likho)
-    window.location.href = "passworse2.html"; 
+    window.location.href = "useless2.html"; 
 });
