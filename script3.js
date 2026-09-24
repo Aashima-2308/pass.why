@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.removeItem("userPassword");
 
             // Page 1 par redirect
-            window.location.href = "useless.html"; // Change to your Page 1 file name
+            window.location.href = "index.html"; // Change to your Page 1 file name
         });
     }
 });
