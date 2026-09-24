@@ -30,13 +30,14 @@ function renderPipeline() {
 }
 
 const statusMessages = [
-    "lol 🤣",
-    "noob 🤣",
-    "cooked fr 🥀",
-    "skill issue ngl 💀",
-    "touch grass maybe? 🌱",
-    "bro really thought he had it 🤡",
-    "let someone else try 😭",
+    "LOL 🤣",
+    "Noob 🤣",
+    "Cooked FR 🥀",
+    "Skill issue ngl 💀",
+    "Touch grass maybe? 🌱",
+    "Bro really thought he had it 🤡",
+    "Let someone else try 😭",
+    "Loser😭",
 ];
 
 // Function to pick and display a random message
