@@ -2,6 +2,12 @@
 const passwordInput = document.getElementById('pwdinput');
 const continueBtn = document.getElementById('continueButton');
 
+// 🎯 NEW FEATURE: Live Uppercase Filtering (A-Z only allow karega)
+passwordInput.addEventListener('input', function () {
+    // Current input ko uppercase me convert karke non-A-Z characters remove kar do
+    this.value = this.value.toUpperCase().replace(/[^A-Z]/g, '');
+});
+
 // Step 2: Button ke click par event listener lagayein
 continueBtn.addEventListener('click', function () {
     // Input se password read kar rahe hain
@@ -9,7 +15,7 @@ continueBtn.addEventListener('click', function () {
 
     // Validation: Agar user ne bina kuch likhe button daba diya
     if (enteredPassword === "") {
-        alert("Please enter a password first!");
+        alert("Please enter a valid password (UPPERCASE A-Z only)!");
         return; // Function ko yahin rok do
     }
 
@@ -17,6 +23,5 @@ continueBtn.addEventListener('click', function () {
     localStorage.setItem('userPassword', enteredPassword);
 
     // Step 4: Next page par navigate karna
-    // (Aapke Page 2 ke HTML file ka jo bhi naam ho, yahan woh likho)
     window.location.href = "useless2.html"; 
 });
